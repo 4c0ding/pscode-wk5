@@ -1,19 +1,68 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
-(Your pseudocode here)
+
+
+PRINT "Add two numbers together to calculate the sum of those numbers."
+
+	(Input n1
+
+	Input n2
+
+		Set SUM = n1 + n2
+
+			Output SUM)
+
+--END--
+
+-----------------------------------------------
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
 
-// Exercise 3: 
-Write pseudo code that will perform the following.    
 
-a) Read in 5 separate numbers.   
-b) Calculate the average of the five numbers.
-c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
-d) Write out the results found from steps b and c with a message describing what they are
+PRINT "If the remainder when dividing a number by 2 is zero, the number is even; otherwise, it's odd."
 
-(Your pseudocode here)
+	(Input number
+
+		IF number modulo 2 equals 0, then
+			output "Number is even."
+
+		ELSE
+			output "Number is odd.")
+
+--END--
+
+-----------------------------------------------------------------
+
+// Exercise 3: Write pseudo code that will perform the following.    
+
+	a) Read in 5 separate numbers.
+	b) Calculate the average of the five numbers.
+	c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+	d) Write out the results found from steps b and c with a message describing what they are.
+
+
+
+PRINT "When any 5 numbers are input, this pseudocode will calculate the average of those 5 numbers, and using conditional statements within an iteration, will identify the smallest and the largest of the input numbers. The results of these calculations will be displayed upon conclusion."
+
+	(input n1, n2, n3, n4, n5
+
+		{avg = (n1 + n2 + n3 + n4 + n5)/5}
+
+			[small = n1
+			large = n1
+			for i = 2 to 5:
+
+   				IF n1 > ni, then:
+       				small = ni
+
+				IF n1 < ni, then:
+				large = ni]
+
+		PRINT("Average:", avg)
+
+		PRINT("Smallest:", small)
+
+		PRINT("Largest:", large))
 
 -- END --
