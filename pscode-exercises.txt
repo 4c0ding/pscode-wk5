@@ -65,4 +65,4 @@ PRINT "When any 5 numbers are input, this pseudocode will calculate the average 
 
 		PRINT("Largest:", large))
 
--- END --
+--END--
